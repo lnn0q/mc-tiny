@@ -1,0 +1,41 @@
+filename = 'Icarus-NeoForge-4.7.9.jar'
+name = 'Icarus'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.7.9+NeoForge'
+
+[download]
+hash = 'c5627967e662b1f1d2e469cb0d7d8b96b69fe6721581185ead2eecefc2dd3bb14f175b26fd5d4adcfe5ee47e936b7039c8d563d176c81dabee01829cde5338ce'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Dw7M6XKW/versions/QKQXFFhz/Icarus-NeoForge-4.7.9.jar'
+
+[update.modrinth]
+mod-id = 'Dw7M6XKW'
+version = 'QKQXFFhz'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's9gIPDom'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HIuqnQpi'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '40FYwb4z'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nf68xfAw'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'M1953qlQ'
+type = 'REQUIRED'

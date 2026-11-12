@@ -1,0 +1,25 @@
+filename = '1.3.5-backpacks_mod-1.21-1.21.1.jar'
+name = 'Backpacks!'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.5'
+
+[download]
+hash = '62bcf7ac7ddcda27c2dc581593cf9887c567027e061aad724a684f81a523f04e6f6dadfcbcbcfef81d63dfc1267dbea7d4fef6e93d8f5c97049954b2f4382782'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MGcd6kTf/versions/uJz7ESID/1.3.5-backpacks_mod-1.21-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'MGcd6kTf'
+version = 'uJz7ESID'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'k2ZPuTBm'
+type = 'INCOMPATIBLE'

@@ -1,0 +1,21 @@
+filename = 'letsdo-vinery-neoforge-1.5.5.jar'
+name = "[Let's Do] Vinery"
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.5'
+
+[download]
+hash = 'deeef53f933cd7750d32800009deff31e47c4e7e71e3a4e3714e3ecf9fede3190ab0db7fad10817d352de7cc4cbdea5b308e592ebd6bf8f0a921a2cf98f6871d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1DWmBJVA/versions/DLINXOWN/letsdo-vinery-neoforge-1.5.5.jar'
+
+[update.modrinth]
+mod-id = '1DWmBJVA'
+version = 'DLINXOWN'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
