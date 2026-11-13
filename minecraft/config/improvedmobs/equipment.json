@@ -1,0 +1,1075 @@
+{
+  "version": 2,
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "Value is the item. It also accepts item components. The default config has an example with a harming potion",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": [
+    {
+      "value": "minecraft:crossbow",
+      "weight": 281.0,
+      "quality": 3.287994146347046
+    },
+    {
+      "value": "minecraft:diamond_axe",
+      "weight": 149.0,
+      "quality": 4.05654764175415
+    },
+    {
+      "value": "minecraft:diamond_sword",
+      "weight": 212.0,
+      "quality": 3.6127333641052246
+    },
+    {
+      "value": "minecraft:enchanted_book",
+      "weight": 200.0,
+      "quality": 3.6840314865112305
+    },
+    {
+      "value": "minecraft:fishing_rod",
+      "weight": 568.0,
+      "quality": 2.6000821590423584
+    },
+    {
+      "value": "minecraft:golden_axe",
+      "weight": 302.0,
+      "quality": 3.208108901977539
+    },
+    {
+      "value": "minecraft:golden_sword",
+      "weight": 708.0,
+      "quality": 2.416879892349243
+    },
+    {
+      "value": "minecraft:iron_axe",
+      "weight": 179.0,
+      "quality": 3.822617769241333
+    },
+    {
+      "value": "minecraft:iron_sword",
+      "weight": 350.0,
+      "quality": 3.0566153526306152
+    },
+    {
+      "value": "minecraft:lava_bucket",
+      "weight": 247.0,
+      "quality": 3.432752847671509
+    },
+    {
+      "value": "minecraft:netherite_axe",
+      "weight": 121.0,
+      "quality": 4.354300498962402
+    },
+    {
+      "value": "minecraft:netherite_sword",
+      "weight": 166.0,
+      "quality": 3.9182848930358887
+    },
+    {
+      "value": "minecraft:stone_axe",
+      "weight": 193.0,
+      "quality": 3.7238175868988037
+    },
+    {
+      "value": "minecraft:stone_sword",
+      "weight": 554.0,
+      "quality": 2.6225602626800537
+    },
+    {
+      "value": "minecraft:trident",
+      "weight": 161.0,
+      "quality": 3.957768440246582
+    },
+    {
+      "value": "minecraft:wooden_axe",
+      "weight": 308.0,
+      "quality": 3.1891281604766846
+    },
+    {
+      "value": "minecraft:wooden_sword",
+      "weight": 738.0,
+      "quality": 2.383166551589966
+    },
+    {
+      "value": "betterend:aeternium_axe",
+      "weight": 110.0,
+      "quality": 4.491475582122803
+    },
+    {
+      "value": "betterend:aeternium_sword",
+      "weight": 149.0,
+      "quality": 4.057667255401611
+    },
+    {
+      "value": "betterend:terminite_axe",
+      "weight": 129.0,
+      "quality": 4.260779857635498
+    },
+    {
+      "value": "betterend:terminite_sword",
+      "weight": 218.0,
+      "quality": 3.57918119430542
+    },
+    {
+      "value": "betterend:thallasium_axe",
+      "weight": 196.0,
+      "quality": 3.7087388038635254
+    },
+    {
+      "value": "betterend:thallasium_sword",
+      "weight": 387.0,
+      "quality": 2.955367088317871
+    },
+    {
+      "value": "create:cardboard_sword",
+      "weight": 44000.0,
+      "quality": 0.6102612018585205
+    },
+    {
+      "value": "create_the_air_wars:titanium_axe",
+      "weight": 176.0,
+      "quality": 3.839927911758423
+    },
+    {
+      "value": "deeperdarker:resonarium_axe",
+      "weight": 148.0,
+      "quality": 4.066203594207764
+    },
+    {
+      "value": "deeperdarker:resonarium_sword",
+      "weight": 209.0,
+      "quality": 3.6248958110809326
+    },
+    {
+      "value": "deeperdarker:warden_axe",
+      "weight": 100.0,
+      "quality": 4.627480506896973
+    },
+    {
+      "value": "deeperdarker:warden_sword",
+      "weight": 135.0,
+      "quality": 4.196272373199463
+    },
+    {
+      "value": "dndesires:handheld_saw",
+      "weight": 301.0,
+      "quality": 3.2124783992767334
+    },
+    {
+      "value": "endermanoverhaul:corrupted_blade",
+      "weight": 329.0,
+      "quality": 3.1201539039611816
+    },
+    {
+      "value": "expanded_combat:diamond_cross_bow",
+      "weight": 294.0,
+      "quality": 3.2384750843048096
+    },
+    {
+      "value": "expanded_combat:golden_cross_bow",
+      "weight": 335.0,
+      "quality": 3.101877212524414
+    },
+    {
+      "value": "expanded_combat:iron_cross_bow",
+      "weight": 311.0,
+      "quality": 3.1770269870758057
+    },
+    {
+      "value": "expanded_combat:netherite_cross_bow",
+      "weight": 287.0,
+      "quality": 3.2625374794006348
+    },
+    {
+      "value": "powergrid:electrobaton",
+      "weight": 1110.0,
+      "quality": 2.0803041458129883
+    },
+    {
+      "value": "powergrid:portable_saw",
+      "weight": 904.0,
+      "quality": 2.227857828140259
+    }
+  ],
+  "OFFHAND": [
+    {
+      "value": "minecraft:bow",
+      "weight": 418.0,
+      "quality": 2.880415916442871
+    },
+    {
+      "value": "minecraft:ender_pearl",
+      "weight": 279.0,
+      "quality": 3.294420003890991
+    },
+    {
+      "value": "minecraft:flint_and_steel",
+      "weight": 453.0,
+      "quality": 2.8032727241516113
+    },
+    {
+      "value": {
+        "id": "minecraft:lingering_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 314.0,
+      "quality": 3.1685984134674072
+    },
+    {
+      "value": "minecraft:shield",
+      "weight": 400.0,
+      "quality": 2.921884775161743
+    },
+    {
+      "value": "minecraft:snowball",
+      "weight": 863.0,
+      "quality": 2.262720823287964
+    },
+    {
+      "value": {
+        "id": "minecraft:splash_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 314.0,
+      "quality": 3.1685984134674072
+    },
+    {
+      "value": "minecraft:tnt",
+      "weight": 142.0,
+      "quality": 4.121321678161621
+    },
+    {
+      "value": "minecraft:wind_charge",
+      "weight": 234.0,
+      "quality": 3.4933769702911377
+    },
+    {
+      "value": "endermanoverhaul:corrupted_shield",
+      "weight": 312.0,
+      "quality": 3.1740529537200928
+    },
+    {
+      "value": "expanded_combat:diamond_bow",
+      "weight": 458.0,
+      "quality": 2.7937724590301514
+    },
+    {
+      "value": "expanded_combat:fire_resistant_shield",
+      "weight": 1256.0,
+      "quality": 1.9967795610427856
+    },
+    {
+      "value": "expanded_combat:golden_bow",
+      "weight": 855.0,
+      "quality": 2.2696011066436768
+    },
+    {
+      "value": "expanded_combat:iron_bow",
+      "weight": 583.0,
+      "quality": 2.578319787979126
+    },
+    {
+      "value": "expanded_combat:netherite_bow",
+      "weight": 422.0,
+      "quality": 2.871856927871704
+    },
+    {
+      "value": "expanded_combat:shield",
+      "weight": 1256.0,
+      "quality": 1.9967795610427856
+    },
+    {
+      "value": "supplementaries:bomb",
+      "weight": 105.0,
+      "quality": 4.559698581695557
+    },
+    {
+      "value": "supplementaries:bomb_blue",
+      "weight": 85.0,
+      "quality": 4.889831066131592
+    }
+  ],
+  "FEET": [
+    {
+      "value": "minecraft:chainmail_boots",
+      "weight": 969.0,
+      "quality": 2.177103042602539
+    },
+    {
+      "value": "minecraft:diamond_boots",
+      "weight": 183.0,
+      "quality": 3.7909510135650635
+    },
+    {
+      "value": "minecraft:golden_boots",
+      "weight": 947.0,
+      "quality": 2.1937637329101562
+    },
+    {
+      "value": "minecraft:iron_boots",
+      "weight": 436.0,
+      "quality": 2.8397490978240967
+    },
+    {
+      "value": "minecraft:leather_boots",
+      "weight": 1153.0,
+      "quality": 2.054002523422241
+    },
+    {
+      "value": "minecraft:netherite_boots",
+      "weight": 149.0,
+      "quality": 4.056140422821045
+    },
+    {
+      "value": "accents:hermes_boots",
+      "weight": 1155.0,
+      "quality": 2.0528805255889893
+    },
+    {
+      "value": "betterend:aeternium_boots",
+      "weight": 81.0,
+      "quality": 4.963818550109863
+    },
+    {
+      "value": "betterend:crystalite_boots",
+      "weight": 225.0,
+      "quality": 3.5382511615753174
+    },
+    {
+      "value": "betterend:terminite_boots",
+      "weight": 158.0,
+      "quality": 3.9786109924316406
+    },
+    {
+      "value": "betterend:thallasium_boots",
+      "weight": 817.0,
+      "quality": 2.303926944732666
+    },
+    {
+      "value": "create:cardboard_boots",
+      "weight": 1312.0,
+      "quality": 1.9675565958023071
+    },
+    {
+      "value": "create:copper_diving_boots",
+      "weight": 1113.0,
+      "quality": 2.0786025524139404
+    },
+    {
+      "value": "create:netherite_diving_boots",
+      "weight": 149.0,
+      "quality": 4.056140422821045
+    },
+    {
+      "value": "deeperdarker:resonarium_boots",
+      "weight": 166.0,
+      "quality": 3.9183335304260254
+    },
+    {
+      "value": "deeperdarker:warden_boots",
+      "weight": 88.0,
+      "quality": 4.831125259399414
+    },
+    {
+      "value": "grapplemod:long_fall_boots",
+      "weight": 125.0,
+      "quality": 4.30849552154541
+    },
+    {
+      "value": "luckyswardrobe:desert_sandals",
+      "weight": 1711.0,
+      "quality": 1.8012080192565918
+    },
+    {
+      "value": "luckyswardrobe:entertainers_shoes",
+      "weight": 1711.0,
+      "quality": 1.8012080192565918
+    },
+    {
+      "value": "luckyswardrobe:jungle_sandals",
+      "weight": 1711.0,
+      "quality": 1.8012080192565918
+    },
+    {
+      "value": "luckyswardrobe:savanna_sandals",
+      "weight": 1711.0,
+      "quality": 1.8012080192565918
+    },
+    {
+      "value": "luckyswardrobe:snowy_boots",
+      "weight": 1711.0,
+      "quality": 1.8012080192565918
+    },
+    {
+      "value": "luckyswardrobe:swampy_shoes",
+      "weight": 1711.0,
+      "quality": 1.8012080192565918
+    },
+    {
+      "value": "luckyswardrobe:taiga_boots",
+      "weight": 1711.0,
+      "quality": 1.8012080192565918
+    },
+    {
+      "value": "vinery:winemaker_boots",
+      "weight": 1153.0,
+      "quality": 2.054002523422241
+    }
+  ],
+  "LEGS": [
+    {
+      "value": "minecraft:chainmail_leggings",
+      "weight": 422.0,
+      "quality": 2.8714303970336914
+    },
+    {
+      "value": "minecraft:diamond_leggings",
+      "weight": 155.0,
+      "quality": 4.00338077545166
+    },
+    {
+      "value": "minecraft:golden_leggings",
+      "weight": 705.0,
+      "quality": 2.4200925827026367
+    },
+    {
+      "value": "minecraft:iron_leggings",
+      "weight": 272.0,
+      "quality": 3.324331045150757
+    },
+    {
+      "value": "minecraft:leather_leggings",
+      "weight": 1545.0,
+      "quality": 1.8632593154907227
+    },
+    {
+      "value": "minecraft:netherite_leggings",
+      "weight": 130.0,
+      "quality": 4.244091033935547
+    },
+    {
+      "value": "betterend:aeternium_leggings",
+      "weight": 81.0,
+      "quality": 4.972701549530029
+    },
+    {
+      "value": "betterend:crystalite_leggings",
+      "weight": 207.0,
+      "quality": 3.6368350982666016
+    },
+    {
+      "value": "betterend:terminite_leggings",
+      "weight": 135.0,
+      "quality": 4.193337917327881
+    },
+    {
+      "value": "betterend:thallasium_leggings",
+      "weight": 369.0,
+      "quality": 3.0025808811187744
+    },
+    {
+      "value": "create:cardboard_leggings",
+      "weight": 3319.0,
+      "quality": 1.4442458152770996
+    },
+    {
+      "value": "deeperdarker:resonarium_leggings",
+      "weight": 141.0,
+      "quality": 4.1386566162109375
+    },
+    {
+      "value": "deeperdarker:warden_leggings",
+      "weight": 88.0,
+      "quality": 4.84050178527832
+    },
+    {
+      "value": "luckyswardrobe:desert_pants",
+      "weight": 354.0,
+      "quality": 3.043351888656616
+    },
+    {
+      "value": "luckyswardrobe:entertainers_pants",
+      "weight": 354.0,
+      "quality": 3.043351888656616
+    },
+    {
+      "value": "luckyswardrobe:jungle_pants",
+      "weight": 354.0,
+      "quality": 3.043351888656616
+    },
+    {
+      "value": "luckyswardrobe:savanna_pants",
+      "weight": 354.0,
+      "quality": 3.043351888656616
+    },
+    {
+      "value": "luckyswardrobe:snowy_pants",
+      "weight": 354.0,
+      "quality": 3.043351888656616
+    },
+    {
+      "value": "luckyswardrobe:swampy_pants",
+      "weight": 354.0,
+      "quality": 3.043351888656616
+    },
+    {
+      "value": "luckyswardrobe:taiga_pants",
+      "weight": 354.0,
+      "quality": 3.043351888656616
+    },
+    {
+      "value": "vinery:winemaker_leggings",
+      "weight": 1545.0,
+      "quality": 1.8632593154907227
+    }
+  ],
+  "CHEST": [
+    {
+      "value": "minecraft:chainmail_chestplate",
+      "weight": 353.0,
+      "quality": 3.0472640991210938
+    },
+    {
+      "value": "minecraft:diamond_chestplate",
+      "weight": 139.0,
+      "quality": 4.1497578620910645
+    },
+    {
+      "value": "minecraft:elytra",
+      "weight": 1360.0,
+      "quality": 1.944161295890808
+    },
+    {
+      "value": "minecraft:golden_chestplate",
+      "weight": 354.0,
+      "quality": 3.0433297157287598
+    },
+    {
+      "value": "minecraft:iron_chestplate",
+      "weight": 267.0,
+      "quality": 3.3422842025756836
+    },
+    {
+      "value": "minecraft:leather_chestplate",
+      "weight": 788.0,
+      "quality": 2.3323044776916504
+    },
+    {
+      "value": "minecraft:netherite_chestplate",
+      "weight": 126.0,
+      "quality": 4.295101642608643
+    },
+    {
+      "value": "accents:bandolier",
+      "weight": 1022.0,
+      "quality": 2.138244867324829
+    },
+    {
+      "value": "accents:holstered_belt",
+      "weight": 1022.0,
+      "quality": 2.138244867324829
+    },
+    {
+      "value": "accents:quiver",
+      "weight": 1022.0,
+      "quality": 2.138244867324829
+    },
+    {
+      "value": "accents:sheathed_katana",
+      "weight": 1022.0,
+      "quality": 2.138244867324829
+    },
+    {
+      "value": "accents:wings",
+      "weight": 1022.0,
+      "quality": 2.138244867324829
+    },
+    {
+      "value": "betterend:aeternium_chestplate",
+      "weight": 88.0,
+      "quality": 4.83994722366333
+    },
+    {
+      "value": "betterend:crystalite_chestplate",
+      "weight": 176.0,
+      "quality": 3.8397457599639893
+    },
+    {
+      "value": "betterend:elytra_armored",
+      "weight": 95.0,
+      "quality": 4.709362030029297
+    },
+    {
+      "value": "betterend:elytra_crystalite",
+      "weight": 130.0,
+      "quality": 4.2497100830078125
+    },
+    {
+      "value": "betterend:terminite_chestplate",
+      "weight": 154.0,
+      "quality": 4.017975330352783
+    },
+    {
+      "value": "betterend:thallasium_chestplate",
+      "weight": 311.0,
+      "quality": 3.179025650024414
+    },
+    {
+      "value": "create:cardboard_chestplate",
+      "weight": 2168.0,
+      "quality": 1.6645348072052002
+    },
+    {
+      "value": "create:copper_backtank",
+      "weight": 228.0,
+      "quality": 3.521564245223999
+    },
+    {
+      "value": "create:netherite_backtank",
+      "weight": 104.0,
+      "quality": 4.570404052734375
+    },
+    {
+      "value": "create_jetpack:jetpack",
+      "weight": 228.0,
+      "quality": 3.521564245223999
+    },
+    {
+      "value": "create_jetpack:netherite_jetpack",
+      "weight": 104.0,
+      "quality": 4.570404052734375
+    },
+    {
+      "value": "deeperdarker:resonarium_chestplate",
+      "weight": 126.0,
+      "quality": 4.290570259094238
+    },
+    {
+      "value": "deeperdarker:soul_elytra",
+      "weight": 534.0,
+      "quality": 2.65472674369812
+    },
+    {
+      "value": "deeperdarker:warden_chestplate",
+      "weight": 91.0,
+      "quality": 4.77851676940918
+    },
+    {
+      "value": "endermanoverhaul:badlands_hood",
+      "weight": 324.0,
+      "quality": 3.135409355163574
+    },
+    {
+      "value": "endermanoverhaul:savanna_hood",
+      "weight": 324.0,
+      "quality": 3.135409355163574
+    },
+    {
+      "value": "endermanoverhaul:snowy_hood",
+      "weight": 324.0,
+      "quality": 3.135409355163574
+    },
+    {
+      "value": "luckyswardrobe:broken_barrel",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:butchers_apron",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:chiton",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:clerics_apron",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:desert_robe",
+      "weight": 291.0,
+      "quality": 3.249309539794922
+    },
+    {
+      "value": "luckyswardrobe:entertainers_shirt",
+      "weight": 291.0,
+      "quality": 3.249309539794922
+    },
+    {
+      "value": "luckyswardrobe:fishing_apron",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:hardened_leather_apron",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:jungle_robe",
+      "weight": 291.0,
+      "quality": 3.249309539794922
+    },
+    {
+      "value": "luckyswardrobe:leather_apron",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:masons_apron",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:savanna_robe",
+      "weight": 291.0,
+      "quality": 3.249309539794922
+    },
+    {
+      "value": "luckyswardrobe:snowy_coat",
+      "weight": 291.0,
+      "quality": 3.249309539794922
+    },
+    {
+      "value": "luckyswardrobe:swampy_robe",
+      "weight": 291.0,
+      "quality": 3.249309539794922
+    },
+    {
+      "value": "luckyswardrobe:taiga_coat",
+      "weight": 291.0,
+      "quality": 3.249309539794922
+    },
+    {
+      "value": "luckyswardrobe:wool_vest",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "powergrid:portable_battery",
+      "weight": 265.0,
+      "quality": 3.353269338607788
+    },
+    {
+      "value": "vinery:winemaker_apron",
+      "weight": 788.0,
+      "quality": 2.3323044776916504
+    }
+  ],
+  "HEAD": [
+    {
+      "value": "minecraft:chainmail_helmet",
+      "weight": 294.0,
+      "quality": 3.2385385036468506
+    },
+    {
+      "value": "minecraft:diamond_helmet",
+      "weight": 142.0,
+      "quality": 4.12371826171875
+    },
+    {
+      "value": "minecraft:golden_helmet",
+      "weight": 324.0,
+      "quality": 3.133674383163452
+    },
+    {
+      "value": "minecraft:iron_helmet",
+      "weight": 297.0,
+      "quality": 3.226696252822876
+    },
+    {
+      "value": "minecraft:leather_helmet",
+      "weight": 669.0,
+      "quality": 2.462806463241577
+    },
+    {
+      "value": "minecraft:netherite_helmet",
+      "weight": 120.0,
+      "quality": 4.36563777923584
+    },
+    {
+      "value": "minecraft:shulker_shell",
+      "weight": 533.0,
+      "quality": 2.656646490097046
+    },
+    {
+      "value": "minecraft:turtle_helmet",
+      "weight": 263.0,
+      "quality": 3.362133026123047
+    },
+    {
+      "value": "accents:cakeman_plushie",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:captain_hat",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:christmas_hat",
+      "weight": 386.0,
+      "quality": 2.9567716121673584
+    },
+    {
+      "value": "accents:cowboy_hat",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:crown",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:dragon_skull",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:horns",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:kasa_hat",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:overtop_hat",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:pickelhaube",
+      "weight": 353.0,
+      "quality": 3.0482771396636963
+    },
+    {
+      "value": "accents:pirate_hat",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:pumpkin_hat",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:skull",
+      "weight": 353.0,
+      "quality": 3.0482771396636963
+    },
+    {
+      "value": "accents:sombrero",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:straw_hat",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:top_hat",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "accents:wizard_hat",
+      "weight": 416.0,
+      "quality": 2.8842315673828125
+    },
+    {
+      "value": "aeronautics:aviators_goggles",
+      "weight": 1454.0,
+      "quality": 1.901476263999939
+    },
+    {
+      "value": "betterend:aeternium_helmet",
+      "weight": 70.0,
+      "quality": 5.204058647155762
+    },
+    {
+      "value": "betterend:crystalite_helmet",
+      "weight": 159.0,
+      "quality": 3.970801591873169
+    },
+    {
+      "value": "betterend:terminite_helmet",
+      "weight": 124.0,
+      "quality": 4.310944080352783
+    },
+    {
+      "value": "betterend:thallasium_helmet",
+      "weight": 260.0,
+      "quality": 3.3745429515838623
+    },
+    {
+      "value": "create:cardboard_helmet",
+      "weight": 711.0,
+      "quality": 2.4135096073150635
+    },
+    {
+      "value": "create:copper_diving_helmet",
+      "weight": 315.0,
+      "quality": 3.1654012203216553
+    },
+    {
+      "value": "create:goggles",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "create:netherite_diving_helmet",
+      "weight": 120.0,
+      "quality": 4.36563777923584
+    },
+    {
+      "value": "createbigcannons:traffic_cone",
+      "weight": 0.0,
+      "quality": 0.0
+    },
+    {
+      "value": "crittersandcompanions:acorn_hat",
+      "weight": 602.0,
+      "quality": 2.550837516784668
+    },
+    {
+      "value": "deeperdarker:resonarium_helmet",
+      "weight": 130.0,
+      "quality": 4.249770641326904
+    },
+    {
+      "value": "deeperdarker:warden_helmet",
+      "weight": 75.0,
+      "quality": 5.088105201721191
+    },
+    {
+      "value": "friendsandfoes:wildfire_crown",
+      "weight": 133.0,
+      "quality": 4.219479560852051
+    },
+    {
+      "value": "luckyswardrobe:bee_hat",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:blacksmith_mask",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:chef_hat",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:desert_hat",
+      "weight": 1616.0,
+      "quality": 1.8358551263809204
+    },
+    {
+      "value": "luckyswardrobe:entertainers_hat",
+      "weight": 1616.0,
+      "quality": 1.8358551263809204
+    },
+    {
+      "value": "luckyswardrobe:explorers_hat",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:farmer_hat",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:fox_hat",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:hat",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:panda_hat",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:savanna_floral_crown",
+      "weight": 1616.0,
+      "quality": 1.8358551263809204
+    },
+    {
+      "value": "luckyswardrobe:scarf",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:snow_fox_hat",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:snowy_hat",
+      "weight": 1616.0,
+      "quality": 1.8358551263809204
+    },
+    {
+      "value": "luckyswardrobe:snowy_hood",
+      "weight": 1616.0,
+      "quality": 1.8358551263809204
+    },
+    {
+      "value": "luckyswardrobe:swampy_hat",
+      "weight": 1616.0,
+      "quality": 1.8358551263809204
+    },
+    {
+      "value": "luckyswardrobe:taiga_hood",
+      "weight": 1616.0,
+      "quality": 1.8358551263809204
+    },
+    {
+      "value": "luckyswardrobe:top_hat",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:witch_hat",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "luckyswardrobe:wolf_hat",
+      "weight": 8080.0,
+      "quality": 1.0736145973205566
+    },
+    {
+      "value": "vinery:straw_hat",
+      "weight": 669.0,
+      "quality": 2.462806463241577
+    }
+  ]
+}
