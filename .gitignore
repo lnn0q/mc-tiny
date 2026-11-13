@@ -1,0 +1,52 @@
+# This repository is an allowlist: only the files needed to reproduce the
+# shared Prism Launcher instance are tracked.
+/*
+
+# Repository and Prism metadata.
+!/.gitignore
+!/README.md
+!/instance.cfg.example
+!/mmc-pack.json
+
+# Shared Minecraft content.
+!/minecraft/
+/minecraft/*
+!/minecraft/icon.png
+!/minecraft/config/
+!/minecraft/defaultconfigs/
+!/minecraft/mods/
+!/minecraft/resourcepacks/
+!/minecraft/shaderpacks/
+
+# Loader-generated mod transformation output and local coding-agent state.
+/minecraft/mods/.connector/
+/minecraft/mods/.agents/
+/minecraft/mods/.codex/
+
+# Generated, private, or world-specific configuration state.
+/minecraft/config/resourceful-config-web.json
+/minecraft/config/NoChatReports/NCR-Encryption.json
+/minecraft/config/NoChatReports/NCR-ServerPreferences.json
+/minecraft/config/jei/world/
+/minecraft/config/inventoryprofilesnext/*/
+/minecraft/config/Veinminer/update/
+/minecraft/config/ars_nouveau/search_index/
+/minecraft/config/epicfight/native/
+/minecraft/config/worldedit/.archive-unpack/
+/minecraft/config/adorablehamsterpets/*.cache.json
+/minecraft/config/bountiful/errors.log
+/minecraft/config/create_submarine_client_state.json
+/minecraft/config/fzzy_config/search.toml
+/minecraft/config/rpg_series/*_report.json
+/minecraft/config/rpg_series/tag_cache.json
+/minecraft/config/sodium-fingerprint.json
+/minecraft/config/wover/cached.json
+/minecraft/config/**/*-had-error.*
+/minecraft/config/**/*.bak
+/minecraft/config/**/*.bak.*
+/minecraft/config/**/*.old
+/minecraft/config/**/*.tmp
+/minecraft/config/**/write.lock
+
+# Runtime-created duplicate copies of enabled resource packs.
+/minecraft/resourcepacks/active/

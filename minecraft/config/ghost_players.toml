@@ -1,0 +1,59 @@
+[list]
+	allowthenamelisttobeused = false
+	onlyusethenamelist = false
+
+[spawns]
+	#The timer before a ghost spawns in ticks (default = 1200)
+	timerfor_ghost_players = 1200.0
+	#The chance of a white eyes cancelling the spawn (to make the entity rarer) (default = 0.5) [1 is 100%]
+	white_eyesdespawnchance = 0.5
+	#The chance of an empty player walking towards the nearest player (default = 0.1) [1 is 100%]
+	empty_playerwalkingchance = 0.5
+	#The chance of an empty player running towards the nearest player and attacking them (default = 0.1) [1 is 100%]
+	empty_playeraggressivechance = 0.25
+	chanceofan_empty_playerspawning = 0.4
+	#If empty steve/alex should spawn naturally
+	spawn_empty_player = true
+	spawn_white_eyes = true
+	empty_playerscanspawnonthesurface = false
+	separationbetween_empty_players = 80.0
+	separationbetween_empty_playersandtheplayer = 45.0
+	separationbetween_white_eyes = 100.0
+	separationbetween_ghost_players = 80.0
+	#The chance of a white eyes spawning instead of a ghost (default = 0.04) [1 is 100%]
+	chanceofa_white_eyesspawning = 0.04
+	despawntimefor_white_eyes = 800.0
+	despawntimefor_empty_player = 2400.0
+
+[names]
+	#If a random name should be generated when every other option fails (if false, will default to: .)
+	generatearandomname = true
+	#The chance of picking recent player names (1 is 100%). Highest priority (default = 0.1)
+	chanceofarecentplayernametobeused = 0.1
+	#The chance of a spooky name being chosen (1 is 100%). Medium priority (default = 0.3)
+	chanceofaspookynametobeused = 0.3
+	#The chance of a name from the list being chosen (1 is 100%). Lowest priority (default = 0.5)
+	chanceofalistnametobeused = 0.5
+	#A list of names ghost players will use
+	listofnames = ["example_name"]
+	#The name that empty players will use. Leave blank for no name
+	empty_playername = "Player"
+
+[misc]
+	#The chance of an empty player spawning with a pickaxe (default = 0.25) [1 is 100%]
+	chanceofan_empty_playerspawningwithapickaxe = 0.25
+	doblockbreakingsounds = true
+	#The chance to play block breaking sounds when a ghost player spawns (default = 0.1) [1 is 100%]
+	chanceofblockbreakingsounds = 0.1
+	#The attenuation distance of the block breaking sounds, how far you can hear them (default = 3) [value of config * 16 is the true distance]
+	attenuationofthebreakingsounds = 3.0
+	dorandomsoundevent = true
+	#The chance for a random sound event to play each tick (default = 0.001) [1 is 100%]
+	chanceforarandomsoundeventtoplay = 0.001
+	#If empty players should stop other mobs from spawning when they are around (default = false)
+	empty_playersdenyspawning = false
+	chancefor_white_eyestojumpscare = 0.75
+	#How close the player needs to be to the empty player for the entity to start walking towards the player (default = 60) [in blocks, in an square area]
+	empty_playerwalkdistance = 60.0
+	#How close the player needs to be to the empty player for the entity to start sprinting towards the player (default = 28) [in blocks, in an square area]
+	empty_playersprintdistance = 28.0

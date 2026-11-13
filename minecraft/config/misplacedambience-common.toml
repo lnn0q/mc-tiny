@@ -1,0 +1,87 @@
+#Master switch for the misplaced ambience effect.
+enabled = true
+#Minimum ticks (20 ticks/second) between misplaced ambient sounds for a given player.
+#Default of 6000 is 5 minutes.
+# Default: 6000
+# Range: > 20
+minIntervalTicks = 6000
+#Maximum ticks (20 ticks/second) between misplaced ambient sounds for a given player.
+#Default of 24000 is 20 minutes.
+# Default: 24000
+# Range: > 20
+maxIntervalTicks = 24000
+#Minimum horizontal distance (in blocks) from the player the sound can play at.
+# Default: 4.0
+# Range: 1.0 ~ 64.0
+minRadius = 4.0
+#Maximum horizontal distance (in blocks) from the player the sound can play at.
+# Default: 12.0
+# Range: 1.0 ~ 64.0
+maxRadius = 12.0
+#Volume multiplier applied on top of each sound's own default volume.
+# Default: 1.0
+# Range: 0.0 ~ 5.0
+volume = 1.0
+#The cave ambience burst is only eligible when the player has no sky access AND is at or
+#below this Y level - default of 50 is a bit below sea level, well into typical cave depth,
+#so it doesn't also trigger for someone merely standing indoors near the surface.
+# Default: 50
+# Range: -64 ~ 320
+caveAmbienceMaxY = 50
+#The water drip sound is only eligible when the player has no sky access AND the residual
+#sky light level at their position is at or below this - default of 3 is quite dim, so it
+#reads as a genuinely enclosed cave pocket rather than just under a thin roof.
+# Default: 3
+# Range: 0 ~ 15
+waterDripMaxSkyLight = 3
+#How strongly the chosen sound's position prefers being behind the player and out of their
+#sight (line-of-sight blocked, or outside their general facing direction) over a uniformly
+#random eligible position, when several plausible sources qualify at once. 0 is a pure
+#uniform random choice among eligible sources (no bias); higher values increasingly favor
+#behind/unseen ones - but it's always a bias, never a hard requirement.
+# Default: 1.0
+# Range: 0.0 ~ 5.0
+unseenSourceBiasStrength = 1.0
+#Relative selection weight for the distant mining sound compared to every other eligible
+#sound (which each implicitly weigh 1.0) - kept low by default so it's a rare occurrence
+#even when eligible, not a regular one. Only ever eligible at all if the player has a real
+#respawn anchor (bed/respawn anchor) set in their current dimension.
+# Default: 0.15
+# Range: 0.0 ~ 5.0
+distantMiningWeight = 0.15
+#How far (in blocks) the player must be from their respawn anchor for the distant mining sound to become eligible.
+# Default: 100.0
+# Range: 1.0 ~ 10000.0
+distantMiningMinDistance = 100.0
+
+[sounds]
+	#Whether a wooden door creaking open can be picked.
+	woodenDoorOpen = true
+	#Whether a wooden door swinging shut can be picked.
+	woodenDoorClose = true
+	#Whether a heavy iron door grinding open can be picked.
+	ironDoorOpen = true
+	#Whether a chest lid creaking open can be picked.
+	chestOpen = true
+	#Whether a chest lid falling shut can be picked.
+	chestClose = true
+	#Whether a barrel lid creaking open can be picked.
+	barrelOpen = true
+	#Whether a trapdoor creaking open can be picked.
+	woodenTrapdoorOpen = true
+	#Whether an outdoor gate creaking open can be picked.
+	fenceGateOpen = true
+	#Whether a distant cave ambience burst can be picked.
+	caveAmbience = true
+	#Whether a faint mechanical click, like a lever being thrown can be picked.
+	leverClick = true
+	#Whether a bell resonating on its own can be picked.
+	bellResonance = true
+	#Whether a faint minecart rumble along nearby rails can be picked.
+	minecartRumble = true
+	#Whether an armor stand creaking as if it shifted can be picked.
+	armorStandCreak = true
+	#Whether a faint water drip echoing in a cave can be picked.
+	waterDrip = true
+	#Whether faint, muffled mining sounds from the direction of your spawn anchor can be picked.
+	distantMining = true
