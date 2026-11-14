@@ -46,7 +46,8 @@
     "net.satisfy.vinery.client.gui.FermentationBarrelGui": true,
     "de.keksuccino.justzoom.OptionsScreen": true,
     "net.minecraft.client.gui.screens.options.SkinCustomizationScreen": true,
-    "com.simibubi.create.content.equipment.blueprint.BlueprintScreen": true
+    "com.simibubi.create.content.equipment.blueprint.BlueprintScreen": true,
+    "team.creative.creativecore.common.gui.integration.GuiScreenIntegration": true
   },
   "hideBackground": {
     "mezz.jei.gui.recipes.RecipesGui": true,
