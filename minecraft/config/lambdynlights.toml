@@ -159,6 +159,9 @@ chunk_rebuild_scheduler = "culling"
 				interaction = true
 				wither = true
 
+			[light_sources.settings.entities.farmersdelight]
+				rotten_tomato = true
+
 			[light_sources.settings.entities.grapplemod]
 				grapplehook = true
 
@@ -225,6 +228,24 @@ chunk_rebuild_scheduler = "culling"
 				warped_forest_enderman = true
 				pet_enderman = true
 
+			[light_sources.settings.entities.netherexp]
+				apparition = true
+				ecto_slab = true
+				banshee = true
+				black_icicle = true
+				phasmo_pellet = true
+				slug_pellet = true
+				carcass = true
+				shotgun_pellet = true
+				will_o_wisp = true
+				antidote = true
+				stampede = true
+				vessel = true
+				wisp = true
+				antidote_effect_cloud = true
+				phasmo_arrow = true
+				portal_glow = true
+
 			[light_sources.settings.entities.adorablehamsterpets]
 				hamster_block_hider = true
 				hamster = true
@@ -235,8 +256,32 @@ chunk_rebuild_scheduler = "culling"
 				mounted_rope_launcher_seat = true
 				throwable_rope_connector = true
 
+			[light_sources.settings.entities.foundation]
+				chair = true
+
 			[light_sources.settings.entities.ae2]
 				tiny_tnt_primed = true
+
+			[light_sources.settings.entities.illagerinvasion]
+				skull_bolt = true
+				sorcerer = true
+				alchemist = true
+				surrendered = true
+				basher = true
+				necromancer = true
+				firecaller = true
+				invoker = true
+				marauder = true
+				invoker_fangs = true
+				flying_magma = true
+				hatchet = true
+				archivist = true
+				provoker = true
+				inquisitor = true
+
+			[light_sources.settings.entities.create_high_seas]
+				helm_seat = true
+				buoy_seat = true
 
 			[light_sources.settings.entities.aeronautics]
 				propeller_bearing_contraption = true
@@ -256,25 +301,64 @@ chunk_rebuild_scheduler = "culling"
 				crafting_blueprint = true
 				potato_projectile = true
 
+			[light_sources.settings.entities.sit]
+				entity_sit = true
+
 			[light_sources.settings.entities.create_the_air_wars]
-				aim9xbult = true
+				c75 = true
 				gvrdcrcd = true
 				m_24bult = true
 				tomahawkbult = true
-				c_3ktrue = true
+				sc_250 = true
 				bggh = true
 				rim_7actvbult = true
-				x25ml_missile = true
-				c75_rocket = true
+				vihr = true
+				nine_k_119m = true
 				c_25actvbult = true
 				machinegun_shell = true
-				c_25 = true
 				csds = true
+				auxiliary_projectile = true
 				ninek_119mactvbult = true
+				fab_3000 = true
+				heattrap_flare = true
+				fab_1500 = true
+				fab_3000true = true
+				aim9xbult = true
+				kh101 = true
+				m_24 = true
+				c_3ktrue = true
+				x25ml = true
+				x25ml_missile = true
+				aim9x = true
+				cannon_shell = true
+				c75_rocket = true
+				c_25 = true
 				vihr_rocket = true
 				astrk = true
-				heattrap_flare = true
-				fab_3000true = true
+				rim_7 = true
+				c_25a = true
+				tomahawk = true
+				fpv_drone = true
+
+			[light_sources.settings.entities.crittersandcompanions]
+				snail = true
+				jumping_spider = true
+				shima_enaga = true
+				mud_ball = true
+				roly_poly = true
+				ladybug = true
+				weevil = true
+				otter = true
+				dragonfly = true
+				stick_bug = true
+				leaf_insect = true
+				stag_beetle = true
+				koi_fish = true
+				dumbo_octopus = true
+				grappling_hook = true
+				ferret = true
+				red_panda = true
+				sea_bunny = true
 
 			[light_sources.settings.entities.powergrid]
 				cord = true
@@ -315,6 +399,21 @@ chunk_rebuild_scheduler = "culling"
 				desert_creeper = true
 				dripstone_creeper = true
 				mushroom_creeper = true
+
+			[light_sources.settings.entities.deeperdarker]
+				anger_pot = true
+				fear_pot = true
+				shattered = true
+				sorrow_pot = true
+				sludge = true
+				stalker = true
+				shriek_worm = true
+				chest_boat = true
+				boat = true
+				sculk_centipede = true
+				sculk_leech = true
+				angler_fish = true
+				sculk_snapper = true
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
@@ -378,8 +477,17 @@ chunk_rebuild_scheduler = "culling"
 			[light_sources.settings.entities.interiors]
 				big_seat = true
 
+			[light_sources.settings.entities.whos_there]
+				empty_steve = true
+				empty_alex = true
+				white_eye = true
+				ghost_player = true
+
 			[light_sources.settings.entities.bclib]
 				chair = true
+
+			[light_sources.settings.entities.notalone]
+				notalone_entity = true
 
 			[light_sources.settings.entities.expanded_combat]
 				ec_arrow = true
@@ -396,8 +504,42 @@ chunk_rebuild_scheduler = "culling"
 				silk_moth = true
 				end_fish = true
 
+			[light_sources.settings.entities.supplementaries]
+				dispenser_minecart = true
+				slingshot_projectile = true
+				brick_projectile = true
+				plunderer = true
+				falling_sack = true
+				pearl_marker = true
+				hat_stand = true
+				pignata = true
+				bomb = true
+				falling_ash = true
+				cannonball = true
+				falling_urn = true
+				red_merchant = true
+				cannon_boat = true
+				rope_arrow = true
+				slimeball_projectile = true
+
 			[light_sources.settings.entities.offroad]
 				borehead_contraption_entity = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				copper_golem = true
+				illusioner = true
+				ice_chunk = true
+				moobloom = true
+				barnacle = true
+				iceologer = true
+				glare = true
+				player_illusion = true
+				tuff_golem = true
+				mauler = true
+				wildfire = true
+				crab = true
+				penguin = true
+				rascal = true
 
 			[light_sources.settings.entities.corpse]
 				corpse = true

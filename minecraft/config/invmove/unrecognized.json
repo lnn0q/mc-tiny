@@ -47,7 +47,11 @@
     "de.keksuccino.justzoom.OptionsScreen": true,
     "net.minecraft.client.gui.screens.options.SkinCustomizationScreen": true,
     "com.simibubi.create.content.equipment.blueprint.BlueprintScreen": true,
-    "team.creative.creativecore.common.gui.integration.GuiScreenIntegration": true
+    "team.creative.creativecore.common.gui.integration.GuiScreenIntegration": true,
+    "brentmaas.buildguide.neoforge.screen.ScreenWrapper": true,
+    "net.minecraft.client.gui.screens.options.AccessibilityOptionsScreen": true,
+    "dev.lambdaurora.lambdynlights.gui.SettingsScreen": true,
+    "rikka.lanserverproperties.ModifyLanScreen": true
   },
   "hideBackground": {
     "mezz.jei.gui.recipes.RecipesGui": true,
@@ -75,6 +79,7 @@
     "io.redspace.ironsspellbooks.gui.inscription_table.InscriptionTableScreen": true,
     "net.satisfy.vinery.client.gui.FermentationBarrelGui": true,
     "net.minecraft.client.gui.screens.social.SocialInteractionsScreen": true,
-    "com.simibubi.create.content.equipment.blueprint.BlueprintScreen": true
+    "com.simibubi.create.content.equipment.blueprint.BlueprintScreen": true,
+    "brentmaas.buildguide.neoforge.screen.ScreenWrapper": true
   }
 }
