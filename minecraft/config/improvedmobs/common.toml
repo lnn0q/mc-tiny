@@ -61,7 +61,7 @@
 	#[ATTRIBUTES, ARMOR, HELDITEMS, BLOCKBREAK, USEITEM, LADDER, STEAL, GUARDIAN, FLYING, TARGETVILLAGER, NEUTRALAGGRO]
 	#added here will disable that feature completely.
 	#E.g. ["GUARDIAN"] will disable the guardian feature
-	"Feature Blacklist" = []
+	"Feature Blacklist" = ["USEITEM"]
 	#Mods can override this now with a datapack! Check for the message 'Following entity overrides are loaded' in your logs to see any overrides
 	#Entities added here will be blacklisted from that feature. Usage:
 	#<entity registry name | namespace | #tag> followed by any of:
@@ -176,7 +176,7 @@
 	"TNT Block Destruction" = false
 	#(Expression): Chance for a mob to ignore line of sight
 	#This config ONLY affects villager target, neutral aggressive and auto targeting feature
-	"Ignore Sight" = "0.5"
+	"Ignore Sight" = "0"
 	#List for of pairs containing which mobs auto target others.
 	#Syntax is <source-target> where
 	#  source: is the mob that should target something. This can be either an entity or a tag

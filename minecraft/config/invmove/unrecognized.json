@@ -51,7 +51,14 @@
     "brentmaas.buildguide.neoforge.screen.ScreenWrapper": true,
     "net.minecraft.client.gui.screens.options.AccessibilityOptionsScreen": true,
     "dev.lambdaurora.lambdynlights.gui.SettingsScreen": true,
-    "rikka.lanserverproperties.ModifyLanScreen": true
+    "rikka.lanserverproperties.ModifyLanScreen": true,
+    "net.mehvahdjukaar.moonlight.core.client.config.ModsTilesScreen": true,
+    "com.simibubi.create.infrastructure.gui.CreateMainMenuScreen": true,
+    "net.mehvahdjukaar.moonlight.core.client.config.MoonlightConfigSelectScreen": true,
+    "net.mehvahdjukaar.moonlight.core.client.config.MoonlightConfigScreen": true,
+    "com.chaosthedude.naturescompass.gui.NaturesCompassScreen": true,
+    "com.minecraftserverzone.weaponmaster.gui.WeaponMasterScreen": true,
+    "net.mehvahdjukaar.moonlight.core.client.config.schema.SchemaEditScreen": true
   },
   "hideBackground": {
     "mezz.jei.gui.recipes.RecipesGui": true,
